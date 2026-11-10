@@ -1,0 +1,92 @@
+{
+  "slug": "ai-era-better-engineers",
+  "title": "The AI Era: Better Engineers",
+  "date": "2026-11-09",
+  "summary": "As AI transforms software development, are developers becoming better engineers or simply faster coders?",
+  "body": [
+    {
+      "type": "paragraph",
+      "content": "A few years ago, building a software application meant spending hours writing boilerplate code, debugging syntax errors, searching documentation, and figuring out why something wasn't working."
+    },
+    {
+      "type": "paragraph",
+      "content": "Today, AI tools can generate entire functions, explain unfamiliar codebases, suggest optimizations, and even help developers build applications from scratch."
+    },
+    {
+      "type": "heading",
+      "content": "1. From Writing Code to Solving Problems"
+    },
+    {
+      "type": "paragraph",
+      "content": "Traditionally, much of a developer's time was spent translating requirements into code. AI is changing that workflow."
+    },
+    {
+      "type": "paragraph",
+      "content": "When generating code becomes easier, understanding the problem becomes even more valuable."
+    },
+    {
+      "type": "heading",
+      "content": "2. The Hidden Cost of AI-Generated Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "AI-generated code often looks convincing. It may even work perfectly for a simple use case. However, working code and production-ready software are two different things."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Thousands of requests arrive simultaneously.",
+        "The database becomes unavailable.",
+        "Two users attempt to update the same record.",
+        "Unexpected input reaches the endpoint.",
+        "The application needs to scale."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "These are engineering problems, not just coding problems. The responsibility for the final implementation still belongs to the engineer."
+    },
+    {
+      "type": "heading",
+      "content": "3. Fundamentals Are Becoming More Important"
+    },
+    {
+      "type": "paragraph",
+      "content": "Knowing the answer and understanding why it works are fundamentally different things. Fundamentals provide the mental models needed to evaluate AI-generated solutions."
+    },
+    {
+      "type": "heading",
+      "content": "4. The Rise of the AI-Augmented Engineer"
+    },
+    {
+      "type": "paragraph",
+      "content": "The future belongs to engineers who can combine technical understanding with effective use of AI tools."
+    },
+    {
+      "type": "heading",
+      "content": "5. What Should Developers Focus on Next?"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Problem-solving: Break complex problems into smaller pieces.",
+        "System design: Understand communication, scalability, and bottlenecks.",
+        "Data and databases: Understand storage, indexing, and concurrency.",
+        "Critical thinking: Question generated code and validate assumptions.",
+        "Adaptability: Learn new tools without abandoning fundamentals."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "Conclusion: Don't Compete With AI at Writing Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Writing code is becoming easier. Building reliable, scalable, secure, and maintainable systems is still hard."
+    },
+    {
+      "type": "paragraph",
+      "content": "The goal should be to become an engineer who knows what to build, why to build it, and how to build it well."
+    }
+  ]
+}
