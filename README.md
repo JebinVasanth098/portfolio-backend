@@ -4,6 +4,21 @@ This folder is yours. The React app in `../frontend` expects the API described
 in `../frontend/README.md`. In development the frontend proxies `/api` to
 `http://localhost:8000`, so run your server on port 8000.
 
+## Deploy on Render
+
+This repository includes a `render.yaml` Blueprint. In Render, create a new
+Blueprint and select this repository. When prompted, set these environment
+variables for the web service:
+
+- `GEMINI_API_KEY`: your Gemini API key. Add it as a secret; do not commit it.
+- `GEMINI_MODEL`: the Gemini model ID to use.
+- `ALLOWED_ORIGINS`: a JSON array containing the deployed frontend origin, for
+  example `["https://your-portfolio.example"]`. Do not include a trailing slash.
+
+The Blueprint installs `requirements.txt`, runs Uvicorn on Render's `$PORT`,
+and uses `/api/health` for health checks. The API will be available at the
+service's `https://<service-name>.onrender.com` URL.
+
 ## Endpoints to build
 
 - `GET /api/health`
