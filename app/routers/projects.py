@@ -9,23 +9,16 @@ router = APIRouter(prefix="/api", tags=["projects"])
 async def get_projects() -> list[dict[str, Any]]:
     return [
         {
-          "slug": "portfolio-site",
-          "name": "Portfolio Website",
-          "summary": "A personal portfolio showcasing projects, writing, and experience.",
+          "slug": "WIP",
+          "name": "WIP(WORK IN PROGRESS!)",
+          "summary": "",
           "stack": ["React", "FastAPI", "Python"],
           "links": [
             {
               "label": "Source",
-              "href": "https://github.com/your-handle/portfolio-site"
+              "href": ""
             }
           ]
-        },
-        {
-          "slug": "task-manager",
-          "name": "Task Manager",
-          "summary": "A simple app for creating and tracking tasks.",
-          "stack": ["JavaScript", "FastAPI"],
-          "links": []
         }
-    ]      
+    ] 
 
